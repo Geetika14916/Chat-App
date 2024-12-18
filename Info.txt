@@ -1,0 +1,17 @@
+UPGRADE:
+So we have an upgrade header which can  be used to upgrade an already existing client/server connection to a different protocol over same transport protocol.
+Eg. http1.1 to http 1.2 or http to https or http to websocket.
+
+
+WebSocket : 
+It is computer communication protocol providing full duplex communication channels over a single TCP connection.
+It starts as an HTTP request (the WebSocket handshake) and then upgrades to the WebSocket protocol.
+WebSocket requires direct access to the underlying server instance, which Express abstracts away.
+Once the connection is upgraded, the protocol switches from HTTP to the WebSocket protocol.
+
+
+
+Express.js:
+Web framework of Node.js to simplify building applications and API, especialy server side development .
+Express.js runs on Node.js, which is a JavaScript runtime for building scalable server-side applications.
+It is a framework built over many modules including HTTP to simplify routing for HTTP requests.
